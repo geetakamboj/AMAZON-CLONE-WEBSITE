@@ -1,14 +1,14 @@
 * {
     margin: 0;
     font-family: Arial;
-    border: border-box;
+    border: border-box;  /* box model */
 }
 
 .navbar {
     height: 60px;
     background-color: #0f1111;
     color: white;
-    display: flex;
+    display: flex;  /* to make it all in navbar in same line */
     align-items: center;
     justify-content: space-evenly;
 }
@@ -33,9 +33,9 @@
     border: 1.5px solid white;
 }
 
-.add-first {
+.add-first {   
     color: #cccccc;
-    font-size: 0.85rem;
+    font-size: 0.85rem;  /* 1 rem means 1 times the root font size then anywhere you use 1 rem will interpret it as 16px. */
     margin-left: 15px;
 }
 
@@ -51,7 +51,7 @@
 
 .nav-search {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly;  /*distributes the space between items evenly*/
     width: 620px;
     height: 40px;
     border-radius: 4px;
@@ -64,7 +64,7 @@
     text-align: center;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
-    border: none;
+    border: none; 
 }
 
 .search-input {
@@ -96,10 +96,10 @@ span{
 .nav-second
 {
     font-size: 0.85rem;
-    font-weight: 700;
+    font-weight: 700;   /* font becomes dark */
 }
 
-.nav-cart i
+.nav-cart i     /*i used for icons*/
 {
     font-size: 30px;
 }
@@ -143,7 +143,7 @@ span{
     height:350px;
     display:flex;
     justify-content: center;
-    align-items:flex-end;
+    align-items:flex-end;    /*to place at bottom*/
 }
 
 .hero-msg{
