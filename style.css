@@ -1,64 +1,74 @@
 * {
     margin: 0;
     font-family: Arial;
-    border: border-box;  /* box model */
+    border: border-box;  
 }
 
-.navbar {
+.navbar
+{
     height: 60px;
     background-color: #0f1111;
     color: white;
-    display: flex;  /* to make it all in navbar in same line */
+    display: flex; 
     align-items: center;
     justify-content: space-evenly;
 }
 
-.nav-logo {
+.nav-logo
+{
     height: 50px;
     width: 100px;
 }
 
-.logo {
+.logo
+{
     background-image: url("C:\\Users\\91959\\Downloads\\amazon_logo.png");
     background-size: cover;
     height: 50px;
     width: 100%;
 }
  
-.border {
+.border
+{
     border: 1.5px solid transparent;
 }
 
-.border:hover {
+.border:hover
+{
     border: 1.5px solid white;
 }
 
-.add-first {   
+.add-first
+{   
     color: #cccccc;
-    font-size: 0.85rem;  /* 1 rem means 1 times the root font size then anywhere you use 1 rem will interpret it as 16px. */
+    font-size: 0.85rem;  
     margin-left: 15px;
 }
 
-.add-second {
+.add-second 
+{
     font-size: 1rem;
     margin-left: 3px;
 }
 
-.add-icon {
+.add-icon 
+{
     display: flex;
     align-items: center;
 }
 
-.nav-search {
+.nav-search 
+{
     display: flex;
-    justify-content: space-evenly;  /*distributes the space between items evenly*/
+    justify-content: space-evenly;  
     width: 620px;
     height: 40px;
     border-radius: 4px;
     border:2px solid transparent;
 }
 
-.search-select {
+.search-select
+{
     background-color: #f3f3f3;
     width: 50px;
     text-align: center;
@@ -67,13 +77,15 @@
     border: none; 
 }
 
-.search-input {
+.search-input
+{
     width: 500px;
     font-size: 1rem;
     border: none;
 }
 
-.search-icon {
+.search-icon
+{
     width: 45px;
     display: flex;
     justify-content: center;
@@ -85,7 +97,8 @@
     color:#0f1111;
 }  
 
-.nav-search:hover{
+.nav-search:hover
+{
     border:2px solid orange;
 }
 
@@ -96,10 +109,10 @@ span{
 .nav-second
 {
     font-size: 0.85rem;
-    font-weight: 700;   /* font becomes dark */
+    font-weight: 700; 
 }
 
-.nav-cart i     /*i used for icons*/
+.nav-cart i     
 {
     font-size: 30px;
 }
@@ -120,7 +133,8 @@ span{
     justify-content: space-evenly;
 }
 
-.panel-ops p{
+.panel-ops p
+{
     display: inline;
     margin-left:15px ;
 }
@@ -131,7 +145,8 @@ span{
     font-size: 0.85rem;
 }
 
-.panel-deals{
+.panel-deals
+{
     font-size: 0.9rem;
     font-weight: 700;
 }
@@ -143,10 +158,11 @@ span{
     height:350px;
     display:flex;
     justify-content: center;
-    align-items:flex-end;    /*to place at bottom*/
+    align-items:flex-end;  
 }
 
-.hero-msg{
+.hero-msg
+{
     background-color: white;
     color:black;
     height: 40px;
@@ -199,7 +215,8 @@ span{
 
 }
 
-footer{
+footer
+{
     margin-top: 15px;
 }
 
@@ -224,11 +241,13 @@ footer{
 
 }
 
-ul{
+ul
+{
     margin-top: 20px;
 }
 
-ul a{
+ul a
+{
     display: block;
     font-size:0.85rem;
     margin-top:10px;
@@ -247,7 +266,8 @@ ul a{
     align-items:center;
 }
 
-.logo{
+.logo
+{
     background-image: url("C:\\Users\\91959\\Downloads\\amazon_logo.png");
     background-size: cover;
     height: 50px;
